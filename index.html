@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apresentação de Keliane</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section aria-labelledby="sobre-titulo" style="position:relative;">
+      <div class="section-furos">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="sobre-conteudo">
+        <div class="foto-postit-row">
+          <img src="assets/eu.jpg" alt="Foto de Keliane Soares" class="foto-perfil"/>
+          <div class="postit-figurinhas">
+            <div class="postit">"Valorize suas raízes e celebre cada conquista!"</div>
+            <div class="figurinhas">
+              <span title="café">☕</span>
+              <span title="viagem">✈️</span>
+              <span title="livro">📖</span>
+            </div>
+          </div>
+        </div>
+        <div class="texto">
+          <h2 id="sobre-titulo">Sobre Mim</h2>
+          <p>
+            Olá! Eu sou a Keliane, tenho 21 anos e sou desenvolvedora back-end. Atualmente moro em Maracanaú, no Ceará, mas cresci em Goiânia, onde vivi momentos inesquecíveis. O mais marcante da minha infância foi uma viagem de barco, do Tocantins ao Maranhão — uma aventura que revelou meu amor por explorar o mundo.
+          </p>
+          <p class="sem-indent">
+            Além de programar, sou apaixonada por artes marciais como Muay Thai, e adoro praticar musculação. Minha conexão com minha família e minhas raízes é profunda: minha mãe, meu pai, meus avós, irmãos e tios são os maiores amores da minha vida. Essas são as partes mais importantes para realmente me conhecer.
+          </p>
+          <button id="contatoBtn" tabindex="0">Entrar em Contato</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="modalContato" class="modal-contato">
+      <div class="modal-conteudo">
+        <span class="fechar-modal" id="fecharModal">&times;</span>
+        <h3>Entre em contato comigo!</h3>
+        <ul>
+          <li><a href="mailto:keliane@email.com" target="_blank">E-mail</a></li>
+          <li><a href="https://www.linkedin.com/in/keliz" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/kelidss" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="carrossel">
+      <div class="carrossel-container">
+        <div class="carrossel-slide">
+          <img src="assets/goias.jpg" alt="Momento em Goiás" />
+          <div class="legenda">Minha infância em Goiás, junto com o nascimento de minha irmã.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/guaramiranga.jpg" alt="Momento em Guaramiranga" />
+          <div class="legenda">Viagem para Guaramiranga, contato com a natureza e paz.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/irmão.png" alt="Momento no Interior" />
+          <div class="legenda">Meu irmão, meu pequeno e grande amor.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/piaui.jpg" alt="Momento no Piauí" />
+          <div class="legenda">Visita ao Piauí, conhecendo mais raízes.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/mombaça.jpg" alt="Momento em Mombaça" />
+          <div class="legenda">Dias especiais em Mombaça, celebrando tradições.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/casa-vó.jpg" alt="Na casa da vó" />
+          <div class="legenda">Antes de embarcar em grandes viagens com minha família.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/aproveitando-o-mar.jpg" alt="Aproveitando o mar" />
+          <div class="legenda">Mergulho ao pôr do sol.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/vó-e-vô.jpg" alt="Vó e Vô" />
+          <div class="legenda">Meus avós.</div>
+        </div>
+        <div class="carrossel-slide">
+          <img src="assets/dia-das-maes.jpg" alt="Dia das Mães" />
+          <div class="legenda">Celebrando o Dia das Mães.</div>
+        </div>
+      </div>
+      <div class="carrossel-indicadores"></div>
+      <button class="prev" onclick="moveSlide(-1)" aria-label="Foto anterior">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)" aria-label="Próxima foto">&#10095;</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com carinho por Keliane Soares &copy; 2025 </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
