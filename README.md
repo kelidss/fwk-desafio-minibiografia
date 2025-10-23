@@ -4,7 +4,7 @@
 
 ![Preview da Minibiografia](assets/eu.jpg)
 
-**Desafio de Código FWK** | Site pessoal interativo com design moderno
+**Desafio de Código FWK** 
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi desenvolvido como **desafio de código da FWK**, tendo como objetivo criar uma minibiografia interativa e visualmente atraente. O site apresenta minha trajetória pessoal, momentos importantes com a família e uma galeria de fotos especiais.
+Este projeto foi desenvolvido como **desafio de código da FWK**, tendo como objetivo criar uma minibiografia interativa. O site apresenta minha trajetória pessoal, momentos importantes com a família e uma galeria de fotos especiais.
 
 ### 🎯 Objetivo do Desafio
 
