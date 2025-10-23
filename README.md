@@ -1,4 +1,4 @@
-# 🌸 Minibiografia - Keliane Soares
+# Minibiografia - Keliane Soares
 
 <div align="center">
 
